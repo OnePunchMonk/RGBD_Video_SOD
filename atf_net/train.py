@@ -17,7 +17,7 @@ from tqdm import tqdm
 # print('USE GPU ', opt.gpu_id)
 os.environ["OMP_NUM_THREADS"] = "1"
 
-DEVICE = torch.device("mps")
+DEVICE = torch.device("cuda")
 
 # cudnn.benchmark = True
 
